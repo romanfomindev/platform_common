@@ -5,8 +5,8 @@ import (
 
 	"github.com/jackc/pgx/v4"
 	"github.com/pkg/errors"
-	"github.com/romanfomindev/microservices-auth/internal/client/db"
-	"github.com/romanfomindev/microservices-auth/internal/client/db/pg"
+	"github.com/romanfomindev/platform_common/pkg/db"
+	"github.com/romanfomindev/platform_common/pkg/db/pg"
 )
 
 type manager struct {

@@ -2,10 +2,11 @@ package pg
 
 import (
 	"context"
+	"time"
+
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/pkg/errors"
-	"github.com/romanfomindev/microservices-auth/internal/client/db"
-	"time"
+	"github.com/romanfomindev/platform_common/pkg/db"
 )
 
 type pgClient struct {

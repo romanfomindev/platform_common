@@ -10,8 +10,8 @@ import (
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
-	"github.com/romanfomindev/microservices-auth/internal/client/db"
-	"github.com/romanfomindev/microservices-auth/internal/client/db/prettier"
+	"github.com/romanfomindev/platform_common/pkg/db"
+	"github.com/romanfomindev/platform_common/pkg/db/prettier"
 )
 
 type key string
